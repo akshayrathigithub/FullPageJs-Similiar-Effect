@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>FullPageJs Similiar Effect</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="section">
-        <div id="BtnWrapper">
-            <div id="BtnUp"></div>
-            <div id="BtnDown"></div>
+      <div id="VerticalArrow">
+        <div class="arrow" id="Up">
+          <div class="bar bar-U-1"></div>
+          <div class="bar bar-U-2"></div>
         </div>
-        <div id="PageWrapper">
-            <div id="Page-1"></div>
-            <div id="Page-2"></div>
-            <div id="Page-3"></div>
-            <div id="Page-4"></div>
+        <div class="arrow" id="Down">
+          <div class="bar bar-D-1"></div>
+          <div class="bar bar-D-2"></div>
         </div>
+      </div>
+      <div id="PageWrapper">
+        <div id="Page-1"></div>
+        <div id="Page-2"></div>
+        <div id="Page-3">
+          <div id="HorizontalArrow">
+            <div class="arrow" id="right">
+              <div class="bar bar-R-1"></div>
+              <div class="bar bar-R-2"></div>
+            </div>
+            <div class="arrow" id="left">
+              <div class="bar bar-L-1"></div>
+              <div class="bar bar-L-2"></div>
+            </div>
+          </div>
+        </div>
+        <div id="Page-4"></div>
+        <div id="Page-5"></div>
+        <div id="Page-6"></div>
+      </div>
     </div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

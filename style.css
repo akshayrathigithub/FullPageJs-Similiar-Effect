@@ -28,34 +28,91 @@
     background-color: #fe4a49;
 }
 #Page-3{
+    position: relative;
     width: 100%;
     height: 100%;
     background-color: #fe9c8f;
-
 }
 #Page-4{
     width: 100%;
     height: 100%;
     background-color: #283655;
-
 }
-#BtnWrapper{
+#Page-5{
+    width: 100%;
+    height: 100%;
+    background-color: #fec401;
+}
+#Page-6{
+    width: 100%;
+    height: 100%;
+    background-color: #fc6c7c;
+}
+
+#VerticalArrow{
     position: fixed;
     left: 80%;
     top: 25%;
     z-index: 1;
 }
-#BtnUp{
-    width: 2rem;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: green;
+#HorizontalArrow{
+    position: relative;
+    left: 20%;
+    top: 25%;
+    z-index: 1;
+}
+.arrow{
+    width: 5rem;
+    height: 5rem;
+    background-color: #BBB;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 1rem;
     cursor: pointer;
 }
-#BtnDown{
-    width: 2rem;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: red;
-    cursor: pointer;
+.bar{
+    position: absolute;
+    width: 2.6rem;
+    height: 5px;
+    background-color: #171010;
+}
+.bar-U-1{
+    top: 35px;
+    left: 7px;
+    transform: rotateZ(-45deg)
+}
+.bar-U-2{
+    top: 35px;
+    left: 33.2px;
+    transform: rotateZ(45deg)
+}
+.bar-D-1{
+    top: 40px;
+    left: 7px;
+    transform: rotateZ(-135deg)
+}
+.bar-D-2{
+    top: 40px;
+    left: 33.2px;
+    transform: rotateZ(-45deg)
+}
+.bar-R-1{
+    top: 25px;
+    left: 20px;
+    transform: rotateZ(45deg)
+}
+.bar-R-2{
+    top: 51px;
+    left: 20px;
+    transform: rotateZ(-45deg)
+}
+.bar-L-1{
+    top: 25px;
+    left: 20px;
+    transform: rotateZ(-45deg)
+}
+.bar-L-2{
+    top: 51px;
+    left: 20px;
+    transform: rotateZ(45deg)
 }
