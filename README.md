@@ -1,1 +1,1 @@
-# FullPageJs-Similiar-Effect
+## FullPageJs-Similiar-Effect
