@@ -28,9 +28,9 @@
     background-color: #fe4a49;
 }
 #Page-3{
-    position: relative;
     width: 99.35vw;
     height: 100vh;
+    position: relative;
 }
 #P-3-ChildWrapper{
     display: flex;
@@ -38,17 +38,17 @@
     width: 400%;
     height: 100%;
     position: absolute;
-    transform: translate3d(0px, 0px, 0px);
+    transition: all 0.8s ease-in-out;
 }
 #P-3-1{
     width: 100%;
     height: 100%;
-    background-color: #fec401;
+    background-color: #06d6a0;
 }
 #P-3-2{
     width: 100%;
     height: 100%;
-    background-color: #283655;
+    background-color: #f77f00;
 }
 #P-3-3{
     width: 100%;
@@ -73,7 +73,7 @@
 #Page-6{
     width: 100%;
     height: 100%;
-    background-color: #fc6c7c;
+    background-color: #69585f;
 }
 
 #VerticalArrow{
@@ -83,7 +83,9 @@
     z-index: 1;
 }
 #HorizontalArrow{
-    position: fixed; 
+    position: absolute; 
+    top: 25%;
+    left: 15%;
     z-index: 1;
 }
 .arrow{
