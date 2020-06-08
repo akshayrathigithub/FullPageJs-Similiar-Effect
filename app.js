@@ -81,6 +81,7 @@ document.addEventListener("wheel", (e) => {
   }
 });
 
+// dragging functionality
 const delta = 6;
 let startX;
 let startY;
@@ -88,15 +89,16 @@ let startY;
 document.addEventListener("mousedown", function (event) {
   startX = event.pageX;
   startY = event.pageY;
+  console.log(startX, startY);
 });
 
 document.addEventListener("mouseup", function (event) {
   const diffX = Math.abs(event.pageX - startX);
   const diffY = Math.abs(event.pageY - startY);
-
+  console.log(diffX, diffY);
   if (diffX < delta && diffY < delta) {
-    // Click!
+    // Clicked
   } else {
-    console.log(diffX, diffY);
+    // actual code
   }
 });
